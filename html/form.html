@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <a href="../index.html" style="color: red;"><h2><strong>→Volver atrás</strong></h2></a>
+    <hr>
+    <h1><strong><em>Reserva tu vuelo</em></strong></h1>
+    <hr>
+    <form action="../html/sent.html">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombres completos">
+        <br><br>
+        <label for="documento">Documento</label>
+        <input type="text" id="documento" name="documento" placeholder="Ingresa tu documento">
+        <br><br>
+        <label for="contraseña" >Contraseña</label>
+        <input type="password" placeholder="Escribe tu contraseña">
+        <br><br>
+        <label for="pasajeros">Pasajeros</label>
+        <input type="number" id="pasajeros" name="pasajeros" placeholder="Número de pasajeros">
+        <br><br><hr>
+        <label for="motivo de viaje"><h3>¿Motivo de viaje?</h3></label>
+        <textarea name="motivo de viaje" id="motivo de viaje" 
+        cols="50" rows="10" placeholder="EScribe el motivo por el cuál deseas viajar"></textarea>
+        <br><br>
+        <input type="submit" style="background-color: rgb(98, 98, 247);
+         margin-left: 150px; border-radius: 150px; ">
+    </form>
+</body>
+</html>
