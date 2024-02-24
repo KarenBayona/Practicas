@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Formulario</title>
+    <style>
+        button{
+            transition:background-color 0.3s;
+            color: black;
+            background-color:rgb(66, 66, 226);
+            cursor:pointer;
+            font-size: 17px;
+            padding: 5px 15px;
+
+        }
+        button:hover{
+            background-color: rgb(158, 158, 233);
+            
+        }
+    </style>
 </head>
 <body>
     <a href="../index.html" style="color: red;"><h2><strong>→Volver atrás</strong></h2></a>
     <hr>
     <h1><strong><em>Reserva tu vuelo</em></strong></h1>
     <hr>
-    <form action="../html/sent.html">
+    <form action="../html/sent.html" >
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Nombres completos">
         <br><br>
@@ -27,8 +42,7 @@
         <textarea name="motivo de viaje" id="motivo de viaje" 
         cols="50" rows="10" placeholder="EScribe el motivo por el cuál deseas viajar"></textarea>
         <br><br>
-        <input type="submit" style="background-color: rgb(98, 98, 247);
-         margin-left: 150px; border-radius: 150px; ">
+        <button type="submit" style="border-radius: 15px; ">Enviar</button>
     </form>
 </body>
 </html>
